@@ -1,7 +1,7 @@
 id=google-call-screening
 name=Google Call Screening
 version=v1.0.7
-versionCode=1.0.7
+versionCode=107
 author=thehappydinoa
 description=Enables Google Call Screening on Android 9+
 minMagisk=17000
