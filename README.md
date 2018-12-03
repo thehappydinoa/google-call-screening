@@ -2,6 +2,12 @@
 
 This module enables Google Call Screening on Android 9+.
 
+## Enable with Magisk
+
+1.  Download [latest zip](https://github.com/thehappydinoa/google-call-screening/releases/latest/)
+
+2.  Install with Magisk Manager
+
 ## Enable Manually
 
 ```bash
@@ -16,7 +22,13 @@ sed -i -e 's/name="G__speakeasy_show_privacy_tour" value="false"/name="G__speake
 sed -i -e 's/name="__data_rollout__SpeakEasy.SpeakEasyDetailsRollout__launched__" value="false"/name="__data_rollout__SpeakEasy.SpeakEasyDetailsRollout__launched__" value="true"/g' $SHARED_PREF_FILE
 sed -i -e 's/name="__data_rollout__SpeakEasy.CallScreenOnPixelTwoRollout__launched__" value="false"/name="__data_rollout__SpeakEasy.CallScreenOnPixelTwoRollout__launched__" value="true"/g' $SHARED_PREF_FILE
 
-cp -af $EDIT_PREF_FILE $SHARED_PREF_FILE
+am force-stop "com.google.android.dialer"
+```
+
+## Oneliner
+
+```bash
+curl -s -L https://git.io/fpKS6 | bash
 ```
 
 ## Notes
