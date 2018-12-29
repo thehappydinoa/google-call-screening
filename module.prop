@@ -4,4 +4,5 @@ version=v1.0.8
 versionCode=108
 author=thehappydinoa
 description=Enables Google Call Screening on Android 9+
+support=https://github.com/thehappydinoa/google-call-screening/issues
 minMagisk=17000
