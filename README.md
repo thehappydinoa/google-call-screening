@@ -33,4 +33,5 @@ curl -s -L https://git.io/fpKS6 | bash
 
 ## Notes
 
-The original `dialer_phenotype_flags.xml` is [here](https://gist.github.com/thehappydinoa/0fe1e0d3f87e24f65eacc38cde4b7daf)
+- The original `dialer_phenotype_flags.xml` is [here](https://gist.github.com/thehappydinoa/0fe1e0d3f87e24f65eacc38cde4b7daf)
+- This module is included in [Pix3lify](https://github.com/Magisk-Modules-Repo/Pix3lify)
